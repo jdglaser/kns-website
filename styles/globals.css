@@ -14,3 +14,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.content {
+  color: white;
+  margin: 0.5rem 0;
+}
+
+.bg {
+  height: 100vh;
+}

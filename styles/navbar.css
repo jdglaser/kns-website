@@ -1,19 +1,8 @@
-.content {
-    color: white;
-    margin: 0.5rem 0;
-}
-
-.bg {
-    background-color: black;
-    height: 100vh;
-}
-
 .navbar {
     /*md:flex md:flex-row md:justify-between w-screen bg-blue-100 p-3*/
     align-items: center;
-    width: 100vw;
     background-color: lightblue;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .navbar-top {
@@ -31,7 +20,6 @@
 
 .burger {
     cursor: pointer;
-    margin: 0 1rem;
 }
 
 .nav-items {

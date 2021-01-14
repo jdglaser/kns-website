@@ -1,7 +1,7 @@
 .navbar {
     /*md:flex md:flex-row md:justify-between w-screen bg-blue-100 p-3*/
     align-items: center;
-    background-color: lightblue;
+    background-color: var(--yellow);
     overflow: hidden;
 }
 
@@ -13,11 +13,6 @@
     margin: 0.5rem;
 }
 
-.logo {
-    color: darkblue;
-    font-size: larger;
-}
-
 .burger {
     cursor: pointer;
 }
@@ -25,8 +20,8 @@
 .nav-items {
     overflow: hidden;
     position: absolute;
-    width: 100vw;
-    background-color: lightblue;
+    width: 100%;
+    background-color: var(--yellow);
 }
 
 .nav-items.close {
@@ -40,8 +35,10 @@
 }
 
 .nav-item {
-    color: darkblue;
-    margin: 0.5rem 1rem;
+    color: var(--black);
+    font-weight: bold;
+    margin: 1rem 1rem;
+    letter-spacing: 0.04rem;
 }
 
 @media (min-width: 640px) {

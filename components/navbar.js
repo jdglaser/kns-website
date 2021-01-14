@@ -38,7 +38,7 @@ export default function Navbar() {
       <>
         <nav className="navbar">
           <div className="navbar-top">
-            <div className="logo">My site</div>
+            <img src="/logo2.png" width="30%" height="30%"></img>
             <div className="burger">
                 <Hamburger
                     toggled={menuOpen} 
@@ -51,7 +51,7 @@ export default function Navbar() {
           <div className={`nav-items ${handleMenuOpen()}`}>
             <NavbarItem name="Home" path="#" />
             <NavbarItem name="About" path="#" />
-            <NavbarItem name="Projects" path="#" />
+            <NavbarItem name="Schedule" path="#" />
           </div>
         </nav>
       </>

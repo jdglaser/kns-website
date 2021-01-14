@@ -9,15 +9,27 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
 }
 
 /* Place text in the middle of the image */
 .hero-text {
+    display: grid;
+    grid-template-rows: auto auto;
+
     color: var(--white);
 }
+
+.slogan {
+    margin: 0 auto;
+}
+
+.hero-button {
+    margin: 0 auto;
+}
+
 
 @media (min-width: 640px) {
     .hero-image {

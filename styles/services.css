@@ -1,0 +1,49 @@
+.service-slogan {
+    font-size: larger;
+    line-height: 2rem;
+}
+
+.service-text {
+    font-size: larger;
+    line-height: 1.5rem;
+    width: 90%;
+    margin-left: 0;
+}
+
+.icon-circle {
+    background-color: var(--blue);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid var(--yellow)
+}
+
+.service-icon.rake {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.service-icon.shovel {
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.sub-item {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+@media (min-width: 640px) {
+    .service-cards {
+        grid-template-columns: auto auto auto;
+    }
+}

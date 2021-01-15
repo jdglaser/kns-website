@@ -27,9 +27,9 @@
   
   .button-custom:hover {
     background-color: var(--dark-blue);
-    -webkit-transition: background-color 0.2s linear;
-    -ms-transition: background-color 0.2s linear;
-    transition: background-color 0.2s linear;
+    -webkit-transition: background-color 0.1s linear;
+    -ms-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
   }
   
   .button-icon {

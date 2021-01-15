@@ -4,7 +4,7 @@ import Button from 'components/button'
 export default function About() {
     return (
         <>
-            <div className="card">
+            <Card >
                 <h2 id="about">Exceptional Services. Low Prices.</h2>
                 <hr></hr>
                 <div className="about-slogan">
@@ -24,7 +24,7 @@ export default function About() {
                     <br></br><br></br>Make us your one stop
                     shop for all of your neighborhood service needs. Schedule a service today!
                 </div>
-            </div>
+            </Card>
         </>
     )
 }

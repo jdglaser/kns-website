@@ -56,10 +56,19 @@ h2, h3 {
   padding: 15px;
   display: grid;
   justify-content: center;
+  align-content: center;
+  grid-row: auto auto;
   margin: 20px 20px;
 }
 
 .centered {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .card {
+    margin: 20px 8px;
+  }
 }

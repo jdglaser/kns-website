@@ -1,14 +1,4 @@
-.service-slogan {
-    font-size: larger;
-    line-height: 2rem;
-}
 
-.service-text {
-    font-size: larger;
-    line-height: 1.5rem;
-    width: 90%;
-    margin-left: 0;
-}
 
 .icon-circle {
     background-color: var(--blue);
@@ -40,6 +30,20 @@
 .service-cards {
     display: grid;
     grid-template-columns: auto;
+}
+
+.service-title {
+    text-align: center;
+    line-height: 0.75rem;
+}
+
+.price {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.dollars {
+    font-size: 2rem;
 }
 
 @media (min-width: 640px) {

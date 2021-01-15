@@ -4,7 +4,7 @@ import Button from 'components/button'
 export default function Services() {
     return (
         <div className="service">
-            <h2 id="service">Exceptional Services. Low Prices.</h2>
+            <h2 id="service" style={{marginBottom:"0", marginLeft:"20px"}}>Exceptional Services.<br></br>Low Prices.</h2>
             
             <div className="service-cards">
                 <div className="card">
@@ -14,7 +14,11 @@ export default function Services() {
                         </div>
                     </div>
                     <div className="sub-item">
-                        <h2 style={{textAlign:"center"}}>Raking Leaves</h2>
+                        <h2 className="service-title">Raking Leaves</h2>
+                        <div className="price">
+                            <span className="dollars">$25</span>
+                            /yard
+                        </div>
                         <hr></hr>
                         <p>Don't let the falling leaves get you down. Let us take care of all your raking needs!</p>
                         <div className="centered">
@@ -30,7 +34,11 @@ export default function Services() {
                         </div>
                     </div>
                     <div className="sub-item">
-                        <h2 style={{textAlign:"center"}}>Shoveling Snow</h2>
+                        <h2 className="service-title">Shoveling Snow</h2>
+                        <div className="price">
+                            <span className="dollars">$20</span>
+                            /driveway
+                        </div>
                         <hr></hr>
                         <p>Does the thought of shoveling give you chills? We've got your back!</p>
                         <div className="centered">
@@ -46,7 +54,11 @@ export default function Services() {
                         </div>
                     </div>
                     <div className="sub-item">
-                        <h2 style={{textAlign:"center"}}>Catsitting</h2>
+                        <h2 className="service-title">Catsitting</h2>
+                        <div className="price">
+                            <span className="dollars">$20</span>
+                            /hour
+                        </div>
                         <hr></hr>
                         <p>In need of a caretaker for your favorite furry friend? Schedule our top of the line catsitting services now!</p>
                         <div className="centered">

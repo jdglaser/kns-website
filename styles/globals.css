@@ -27,7 +27,8 @@ a {
 }
 
 .content {
-  margin: 0.5rem 1rem;
+  display: grid;
+  justify-content: center;
 }
 
 hr {

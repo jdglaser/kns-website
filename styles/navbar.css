@@ -17,6 +17,11 @@
     cursor: pointer;
 }
 
+.logo {
+    width: 100px;
+    height: auto;
+}
+
 .nav-items {
     overflow: hidden;
     position: absolute;
@@ -44,18 +49,28 @@
 @media (min-width: 640px) {
     .navbar {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
+    }
+
+    .logo {
+        width: 110px;
+        height: auto;
     }
 
     .burger {
         display: none;
     }
 
+    .navbar-top {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .nav-items {
         display: flex;
         position: relative;
+        width: fit-content;
         max-height: 1000px;
-        width: initial;
+        margin-right: 0px;
     }
 }

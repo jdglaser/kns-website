@@ -38,7 +38,7 @@ export default function Navbar() {
       <>
         <nav className="navbar">
           <div className="navbar-top">
-            <img src="/logo2.png" width="30%" height="30%"></img>
+            <img className="logo" src="/logo2.png"></img>
             <div className="burger">
                 <Hamburger
                     toggled={menuOpen} 

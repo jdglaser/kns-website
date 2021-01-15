@@ -1,0 +1,33 @@
+.reviews {
+    background-color: var(--blue);
+}
+
+.actual-reviews {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+}
+
+.review-header {
+    color: var(--white);
+    margin-left: 20px;
+    line-height: 0;
+    margin-top: 30px;
+}
+
+.review {
+    justify-content: left;
+    width: 300px;
+}
+
+.star {
+    width: 20px;
+    margin: 0 0.05rem;
+    height: auto;
+}
+
+@media (min-width: 640px) {
+    .actual-reviews {
+        grid-template-columns: auto auto auto;
+    }
+}

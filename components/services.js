@@ -3,12 +3,12 @@ import Button from 'components/button'
 
 export default function Services() {
     return (
-        <div className="service">
-            <h2 id="service" style={{marginBottom:"0", marginLeft:"20px"}}>
+        <div id="service" className="service">
+            <h2 className="service-header">
                 Our Exceptional Services</h2>
             
             <div className="service-cards">
-                <div className="card">
+                <div className="card service-card">
                     <div className="sub-item">
                         <div className="icon-circle">
                             <img className="service-icon rake" src="/raking.png" width="150px" height="150px"></img>
@@ -21,13 +21,13 @@ export default function Services() {
                             /yard
                         </div>
                         <p className="service-description">Don't let the falling leaves get you down. Let us take care of all your raking needs!</p>
-                        <div className="centered">
+                        <div className="service-button centered">
                             <Button text="Schedule Now!"/>
                         </div>
                     </div>
                 </div>
 
-                <div className="card">
+                <div className="card service-card">
                     <div className="sub-item">
                         <div className="icon-circle">
                             <img className="service-icon shovel" src="/shovel.png" width="150px" height="150px"></img>
@@ -40,13 +40,13 @@ export default function Services() {
                             /driveway
                         </div>
                         <p className="service-description">Does the thought of shoveling give you chills? We've got your back!</p>
-                        <div className="centered">
+                        <div className="service-button centered">
                             <Button text="Schedule Now!"/>
                         </div>
                     </div>
                 </div>
 
-                <div className="card">
+                <div className="card service-card">
                     <div className="sub-item">
                         <div className="icon-circle">
                             <img className="service-icon cat" src="/cat.png" width="100px" height="100px"></img>
@@ -59,7 +59,7 @@ export default function Services() {
                             /hour
                         </div>
                         <p className="service-description">In need of a caretaker for your favorite furry friend? Catsitting services now available!</p>
-                        <div className="centered">
+                        <div className=" service-button centered">
                             <Button text="Schedule Now!"/>
                         </div>
                     </div>

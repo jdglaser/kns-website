@@ -14,9 +14,6 @@ export default function Home() {
         <Services />
         <Reviews />
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
     </>
   )
 }

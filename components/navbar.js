@@ -51,8 +51,8 @@ export default function Navbar() {
           <div className={`nav-items ${handleMenuOpen()}`}>
             <NavbarItem name="Home" path="#" />
             <NavbarItem name="Services" path="#service" />
-            <NavbarItem name="Reviews" path="#" />
-            <NavbarItem name="Contact" path="#" />
+            <NavbarItem name="Reviews" path="#reviews" />
+            <NavbarItem name="Contact" path="#contact" />
           </div>
         </nav>
       </>

@@ -1,6 +1,7 @@
 .reviews {
     background-color: var(--blue);
     width: 100%;
+    padding-top: 5px;
 }
 
 .actual-reviews {
@@ -17,10 +18,11 @@
 .review {
     justify-content: left;
     width: 300px;
+    padding: 20px;
 }
 
 .star {
     width: 20px;
-    margin: 0 0.05rem;
+    margin: 0.1rem 0.05rem;
     height: auto;
 }

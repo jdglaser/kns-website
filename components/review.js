@@ -6,10 +6,7 @@ export default function Review(props) {
     const emptyStar = (<img className="star" src="/empty-star.svg"></img>);
 
     let rating = props.rating;
-    console.log(rating);
     let wholeStars = Math.floor(rating);
-    console.log(wholeStars.length)
-    console.log(wholeStars)
     let halfStars = (rating % 1 == 0) ? 0 : 1;
     let emptyStars = Math.floor(5-rating);
 

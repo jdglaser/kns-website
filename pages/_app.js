@@ -4,6 +4,7 @@ import '../styles/hero.css'
 import '../styles/button.css'
 import '../styles/services.css'
 import '../styles/reviews.css'
+import '../styles/contact.css'
 
 function MyApp({ Component, pageProps }) {
 

@@ -1,8 +1,3 @@
-.service {
-    display: grid;
-    justify-content: center;
-}
-
 .icon-circle {
     background-color: var(--blue);
     border-radius: 50%;
@@ -47,12 +42,14 @@
 .service-cards {
     display: grid;
     grid-template-columns: auto;
+    justify-content: center;
     width: 100%;
 }
 
 .service-card {
     padding: 5px;
     width: auto;
+    max-width: 400px;
 }
 
 .service-title {

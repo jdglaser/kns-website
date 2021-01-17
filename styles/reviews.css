@@ -18,6 +18,7 @@
 .review {
     justify-content: left;
     width: auto;
+    height: fit-content;
     max-width: 400px;
     padding: 20px;
 }
@@ -26,4 +27,11 @@
     width: 20px;
     margin: 0.1rem 0.05rem;
     height: auto;
+}
+
+@media (min-width: 640px) {
+    .actual-reviews {
+        grid-template-columns: auto auto auto;
+        align-items: center;
+    }
 }

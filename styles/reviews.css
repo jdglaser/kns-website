@@ -17,7 +17,8 @@
 
 .review {
     justify-content: left;
-    width: 300px;
+    width: auto;
+    max-width: 400px;
     padding: 20px;
 }
 

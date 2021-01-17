@@ -11,7 +11,7 @@ export default function Review(props) {
     let emptyStars = Math.floor(5-rating);
 
     return (
-        <div className="card review">
+        <div className="card review" key={props.name}>
             <div className="rating">
                 {(wholeStars > 0) ? [...Array(wholeStars)].map((e, i) => star) : ""}
                 {(halfStars > 0) ? [...Array(halfStars)].map((e, i) => halfStar) : ""}

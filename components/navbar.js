@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import Hamburger from 'hamburger-react'
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [[width, height], setSize] = useState([0, 0]);
+    const [[width, _], setSize] = useState([0, 0]);
   
     useEffect(() => {
       function updateSize() {
@@ -11,6 +11,7 @@ export default function Navbar() {
       }
       window.addEventListener('resize', updateSize);
       updateSize();
+
       return () => window.removeEventListener('resize', updateSize);
     }, []);
   

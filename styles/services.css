@@ -30,6 +30,10 @@
     margin-bottom: 15px;
 }
 
+.service-icon.misc {
+    margin-left: 15px;
+}
+
 .sub-item {
     margin: 0 auto;
     width: 95%;
@@ -71,6 +75,11 @@ p.service-description {
     display: flex;
     align-items: center;
     border-top: 1px solid #ccc;
+}
+
+.services-disclaimer {
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 800px) {

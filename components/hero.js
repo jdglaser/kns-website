@@ -13,7 +13,7 @@ export default function Hero() {
                 </h1>
             </div>
             <div className="hero-button">
-                <a href="#service"><Button text="Schedule Now!"/></a>
+                <Button text="Schedule Now!" link="#service" icon="/calendar.svg"/>
             </div>
             
             </div>

@@ -1,0 +1,48 @@
+.thanks {
+    margin-left: 20px;
+}
+
+.thanks-buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    column-gap: 10px;
+}
+
+.home-button {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: var(--white);
+    background: var(--blue);
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    border-radius: 12px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-button:hover {
+    background-color: var(--dark-blue);
+    -webkit-transition: background-color 0.1s linear;
+    -ms-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+  }
+  
+  .button-icon {
+    margin: 0px 10px 0 5px;
+  }

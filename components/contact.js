@@ -11,16 +11,18 @@ export default function Contact() {
                     </div>
                     <div className="phone-number">
                         <div className="low-border-line">Call/Text</div>
-                        <div>920-123-4545</div>
+                        <div>920-422-8007</div>
                     </div>
                 </div>
                 <div className="contact-method">
-                    <div className="contact-icon-circle">
-                        <img className="email-icon" src="/email.svg"></img>
-                    </div>
+                    <a href="mailto:kns-services@gmail.com">
+                        <div className="contact-icon-circle">
+                            <img className="email-icon" src="/email.svg"></img>
+                        </div>
+                    </a>
                     <div className="email">
                         <div className="low-border-line">Email</div>
-                        <div><a href="mailto:kns-services@gmail.com">kns-services@gmail.com</a></div>
+                        <div><a href="mailto:kns-services@gmail.com">keegan.glaser@gmail.com</a></div>
                     </div>
                 </div>
             </div>
